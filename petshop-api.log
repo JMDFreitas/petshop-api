@@ -1,0 +1,57 @@
+2022-05-28T21:17:00.347Z [petshop-api] error POST  - Nome e Telefone são obrigatórios.
+2022-05-28T21:17:11.243Z [petshop-api] info POST /client - undefined
+2022-05-28T21:19:27.384Z [petshop-api] info POST /client - {"proprietario_id":8,"nome":"Johnny Michel","telefone":"(91) 982054411"}
+2022-05-28T21:32:38.432Z [petshop-api] error PUT  - ID, Nome e Telefone são obrigatórios.
+2022-05-28T21:33:23.109Z [petshop-api] info PUT /client - {"proprietario_id":8,"nome":"Johnny Freitas","telefone":"(11) 982054411"}
+2022-05-28T21:58:24.576Z [petshop-api] info POST /proprietario - {"proprietario_id":9,"nome":"Nandreza","telefone":"(91) 982054411"}
+2022-05-28T21:58:32.396Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-28T21:59:04.176Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-28T21:59:11.737Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-28T21:59:41.157Z [petshop-api] info DELETE /proprietario/:id - undefined
+2022-05-28T21:59:44.332Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-28T21:59:47.168Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-28T22:00:32.991Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property '_writableState' -> object with constructor 'WritableState'
+    |     property 'afterWriteTickInfo' -> object with constructor 'Object'
+    --- property 'stream' closes the circle
+2022-05-28T22:19:14.377Z [petshop-api] error POST  - Nome e Telefone são obrigatórios.
+2022-05-28T22:19:55.017Z [petshop-api] error POST  - null value in column "proprietario_id" of relation "animais" violates not-null constraint
+2022-05-28T22:25:17.646Z [petshop-api] error POST  - Id Proprietario, Nome e Tipo são obrigatórios.
+2022-05-28T22:25:55.226Z [petshop-api] error POST  - insert or update on table "animais" violates foreign key constraint "fk_proprietarios"
+2022-05-28T22:26:06.485Z [petshop-api] error POST  - O Id do supplier não existe no banco de dados
+2022-05-28T22:26:15.821Z [petshop-api] info POST /animal - {"animal_id":12,"nome":"Monalisa","tipo":"gato","proprietario_id":8}
+2022-05-28T22:27:26.039Z [petshop-api] error PUT  - ID, Nome e Tipo são obrigatórios.
+2022-05-28T22:27:52.504Z [petshop-api] error PUT  - Unexpected string in JSON at position 20
+2022-05-28T22:27:57.529Z [petshop-api] error PUT  - ID, Nome e Tipo são obrigatórios.
+2022-05-28T22:28:45.310Z [petshop-api] info PUT /animal - {"animal_id":12,"nome":"Monalisa","tipo":"gato","proprietario_id":8}
+2022-05-28T22:28:55.296Z [petshop-api] info PUT /animal - {"animal_id":12,"nome":"Monalisa Dias","tipo":"gato","proprietario_id":8}
+2022-05-28T22:29:06.539Z [petshop-api] info PUT /animal - {"animal_id":12,"nome":"Monalisa Dias","tipo":"cachorro","proprietario_id":8}
+2022-05-28T22:29:14.152Z [petshop-api] info PUT /animal - {"animal_id":12,"nome":"Monalisa Dias","tipo":"gato","proprietario_id":8}
+2022-05-28T22:29:21.617Z [petshop-api] info PUT /animal - {"animal_id":12,"nome":"Monalisa","tipo":"gato","proprietario_id":8}
+2022-05-28T22:29:28.518Z [petshop-api] info PUT /animal - {"animal_id":12,"nome":"Monalisa","tipo":"cachorro","proprietario_id":8}
+2022-05-28T22:29:33.731Z [petshop-api] info GET /animal
+2022-05-28T22:29:41.290Z [petshop-api] info GET /animal/:id
+2022-05-28T22:29:48.844Z [petshop-api] info DELETE /animal/:id
+2022-05-28T22:29:51.103Z [petshop-api] info GET /animal/:id
+2022-05-28T22:29:53.899Z [petshop-api] info GET /animal

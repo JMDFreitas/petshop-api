@@ -55,3 +55,38 @@
 2022-05-28T22:29:48.844Z [petshop-api] info DELETE /animal/:id
 2022-05-28T22:29:51.103Z [petshop-api] info GET /animal/:id
 2022-05-28T22:29:53.899Z [petshop-api] info GET /animal
+2022-05-29T13:15:32.299Z [petshop-api] info POST /animal - {"animal_id":13,"nome":"Monalisa","tipo":"cachorro","proprietario_id":8}
+2022-05-29T13:15:56.104Z [petshop-api] info POST /animal - {"animal_id":14,"nome":"Rock","tipo":"cachorro","proprietario_id":8}
+2022-05-29T13:16:11.593Z [petshop-api] info GET /proprietario
+2022-05-29T13:16:26.263Z [petshop-api] info GET /animal
+2022-05-29T13:24:36.251Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:26:06.715Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:27:37.937Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:27:59.893Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:28:19.394Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:30:00.555Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2022-05-29T13:31:12.155Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2022-05-29T13:33:10.560Z [petshop-api] info GET /animal
+2022-05-29T13:33:26.701Z [petshop-api] info GET /animal
+2022-05-29T13:35:31.841Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2022-05-29T13:36:01.290Z [petshop-api] error DELETE  - syntax error at or near "RETURNING"
+2022-05-29T13:37:53.693Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:39:14.391Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:39:31.980Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:41:12.770Z [petshop-api] error DELETE  - Este proprietario não pode ser excluido por ter algum pet aqui.
+2022-05-29T13:41:37.613Z [petshop-api] error DELETE  - Este proprietario não pode ser excluido por ter algum pet aqui.
+2022-05-29T13:41:42.701Z [petshop-api] info POST /proprietario - {"proprietario_id":10,"nome":"Nandreza","telefone":"(91) 982054411"}
+2022-05-29T13:41:51.018Z [petshop-api] info GET /proprietario
+2022-05-29T13:41:58.181Z [petshop-api] info DELETE /proprietario/:id
+2022-05-29T13:42:01.174Z [petshop-api] info GET /proprietario
+2022-05-29T13:48:46.133Z [petshop-api] info GET /animal
+2022-05-29T13:49:15.973Z [petshop-api] info GET /animal
+2022-05-29T13:51:03.303Z [petshop-api] info GET /animal
+2022-05-29T13:52:45.860Z [petshop-api] info POST /animal - {"animal_id":15,"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
+2022-05-29T13:52:58.177Z [petshop-api] info GET /animal
+2022-05-29T13:53:17.714Z [petshop-api] info GET /animal
+2022-05-29T13:53:38.527Z [petshop-api] info GET /animal/:id
+2022-05-29T13:53:58.417Z [petshop-api] info GET /proprietario/:id
+2022-05-29T13:54:54.314Z [petshop-api] info GET /animal/:id
+2022-05-29T13:54:59.868Z [petshop-api] info GET /proprietario/:id
+2022-05-29T13:55:27.586Z [petshop-api] info GET /animal

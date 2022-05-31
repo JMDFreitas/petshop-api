@@ -12,7 +12,10 @@ async function updateAnimal(animal) {
     return await AnimalRepository.updateAnimal(animal);
 }
 
-async function getAnimals() {
+async function getAnimals(propId) {
+    if (propId) {
+        return await AnimalRepository.getAnimalByProprietario(propId);
+    }
     return await AnimalRepository.getAnimals();
 }
 
